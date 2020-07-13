@@ -1,4 +1,4 @@
-# Lab 36
+# Lab 37
 
 ## Project: Storefront
 
@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/diana96alazzam-401-advanced-javascript/storefront/pull/1)
+- [submission PR](https://github.com/diana96alazzam-401-advanced-javascript/storefront/pull/2)
 <!-- - [ci/cd](http://xyz.com) (GitHub Actions) 
 - [back-end server url](http://xyz.com) (when applicable)  -->
 - [front-end application-netlify](https://flamboyant-ardinghelli-540905.netlify.app/) 
