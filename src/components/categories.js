@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { activate } from '../store/state-store';
+import { activate } from '../store/categories';
 
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import Link from '@material-ui/core/Link';
@@ -24,7 +24,7 @@ function Categories(props) {
 }
 
 const mapStateToProps = (state) => {
-  return { categories: state.stateStore.categories };
+  return { categories: state.categories.categories };
 };
 
 const mapDispatchToProps = { activate };

@@ -1,18 +1,24 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 
-function Cart(props){
-  return(
+import ListItemText from '@material-ui/core/ListItemText';
+
+
+
+function Cart(props) {
+  return (
     <ul>
-      {props.cart.map(item=> {
-        return <li>{item}</li>;
+      {props.cart.map(item => {
+        return <ListItemText primary={item.name} />;
       })}
     </ul>
   );
 }
 
 const mapStateToProps = (state) => {
-  return { cart: state.stateStore.cart };
+  console.log('hello', state);
+  return { cart: state.cart.cart };
 };
+
 
 export default connect(mapStateToProps)(Cart);
