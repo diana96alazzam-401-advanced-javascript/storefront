@@ -81,8 +81,7 @@ export default (state = initialState, action) => {
   const { type, payload } = action;
   switch (type) {
   case 'ACTIVATE':
-    state.activeCategory = payload;
-    return { categories: state.categories, products: state.products, activeCategory: state.activeCategory };
+    return { categories: state.categories, products: state.products, activeCategory: payload };
   default:
     return state;
   }

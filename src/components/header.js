@@ -9,13 +9,13 @@ import './products/products-style.css';
 
 function Header(props) {
   return (
-    <AppBar position="static" >
-      <div className='headerapp'>
+    <AppBar position="static" style={{ backgroundColor:'rgb(88,120,141)' }} >
+      {/* <div className='headerapp'> */}
         <Toolbar >
           <CssBaseline />
         Store Lab
         </Toolbar>
-      </div>
+      {/* </div> */}
     </AppBar>
   );
 }
