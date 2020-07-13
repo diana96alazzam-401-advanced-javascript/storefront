@@ -9,7 +9,7 @@
 - [submission PR](https://github.com/diana96alazzam-401-advanced-javascript/storefront/pull/2)
 <!-- - [ci/cd](http://xyz.com) (GitHub Actions) 
 - [back-end server url](http://xyz.com) (when applicable)  -->
-- [front-end application-netlify](https://flamboyant-ardinghelli-540905.netlify.app/) 
+- [front-end application-netlify](https://wonderful-golick-c86ca7.netlify.app/) 
 
 
 ### Setup
