@@ -28,5 +28,11 @@
 
 #### Notes
 
+lab 37:
+  Bugs:
+    - when we add the same item to the cart it should increase its amount in the cart and not add it again.
+    - when we change category the item in the stock reset to the initial state
+
+
 
 
